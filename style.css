@@ -3,10 +3,18 @@
   background-color: #dfdfdf;
 }
 
-#act {
-  background-color: #dfdfdf;
+section {
+  padding-top: 3rem;
 }
 
-section {
-  padding-top: 5rem;
+#about {
+  padding-top: 6rem;
+}
+
+#interest {
+  padding-top: 6rem;
+}
+
+#contact {
+  padding-top: 6rem;
 }
