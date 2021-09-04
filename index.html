@@ -23,7 +23,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #6a2b83">
       <div class="container">
-        <a class="navbar-brand" href="#">Naufal Sadewa</a>
+        <a class="navbar-brand btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Naufal Sadewa</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,11 +47,35 @@
     </nav>
     <!-- End Navbar -->
 
+    <!-- Quotes -->
+    <section id="quotes">
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" style="background-color: #e5b1fd">
+            <div class="modal-header">
+              <h5 class="modal-title text-light" id="exampleModalLabel">Fav Quotes</h5>
+            </div>
+            <h6>
+              <div class="modal-body text-center fw-bold">
+                "Don't wait for anyone to say it for you,<br />
+                Say it for yourself!" <br /><br />
+                <a href="https://youtu.be/l5G17JLpgrU?t=54" class="text-dark fw-bold" style="text-decoration: none">Neck Deep ft. Sam Carter - Don't Wait</a>
+              </div>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Quotes -->
+
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="img/nopalfix.jpg" alt="Naufal Sadewa" width="150" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Naufal Sadewa</h1>
-      <p class="lead">Information Systems Student | All-Round Enthusiast</p>
+      <p class="lead">
+        <a href="https://www.its.ac.id/si/en/home/" class="text-dark" style="text-decoration: none">Information Systems Student</a> |
+        <a href="https://newzoo.com/wp-content/uploads/2020/08/Newzoo_The-changing-face-of-game-enthusiasts_Gamer-Segmentation-2020.jpg" class="text-dark" style="text-decoration: none">All-Round Enthusiast</a>
+      </p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff4e4"
@@ -72,8 +96,11 @@
             <h2>About Me</h2>
           </div>
         </div>
-         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">I am Naufal Sadewa. People call me Nopal. I am graduated from SMAN 15 Surabaya and now studying at ITS majoring in Information Systems.</div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            I am Naufal Sadewa. People call me Nopal. I am graduated from <a href="https://sman15-sby.sch.id/" class="text-dark fw-bold" style="text-decoration: none">SMAN 15 Surabaya</a> and now studying at ITS majoring in Information
+            Systems.
+          </div>
           <div class="col-md-4">I like to learn things about technology and social interaction. I am also interested in discussing social issues and mental health. I often spend my free time playing video games.</div>
         </div>
       </div>
